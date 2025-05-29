@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Questionnaire</title>
+
+        <link rel="stylesheet" href="style.css">
+        <a href="java.js"></a>
+    </head>
+
+    <body>
+        <header>
+            <h1>Men's Mental Health Questionnaire:</h1>
+        </header>
+
+        <main>
+            <form>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <br>
+                <label for="website">What Made You Visit This Website Today?</label><br>
+                <input type="text" id="website" name="website"><br>
+                <br>
+                <label for="similarities">Do Any Of The Topics In This Website Feel Familiar With You?</label><br>
+                <input type="text" id="similarities" name="similarities"><br>
+                <br>
+                <label for="health">Which Of The Following Mental Health Problems Do You Fit With (Multiple Choice)?</label><br>
+                <input type="checkbox" id="Anxiety" name="health" value="Anxiety">
+                <label for="Anxiety">Anxiety</label><br>
+                <input type="checkbox" id="Depression" name="health" value="Depression">
+                <label for="Depression">Depression</label><br>
+                <input type="checkbox" id="LowMood" name="health" value="LowMood">
+                <label for="LowMood">Low Mood</label><br>
+                <input type="checkbox" id="all" name="health" value="all">
+                <label for="all">All Of The Above</label><br>
+                <br>
+                <label for="suppression">Do You Often Suppress Any Emotions/Mental Health Struggles And Why?</label><br>
+                <input type="text" id="suppression" name="suppression"><br>
+                <br>
+                <label for="change">What Will You Do To Improve On Your Mental Health In The Future?</label><br>
+                <input type="text" id="change" name="change"><br>
+                <br>
+                <form action="/submit-form" method="post">
+                <button type="submit" value="submit">Submit</button>
+                </form>
+                
+            </form>
+        </main>
+
+        <footer></footer>
+    </body>
+</html>

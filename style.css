@@ -29,3 +29,21 @@ nav{
 .navbar a:hover{
     background-color: #575757;
 }
+
+#website{
+    width:400px;
+    height:50px;
+    font-size:1.rem;
+}
+
+#similarities{
+    width:400px;
+    height:50px;
+    font-size:1.rem;
+}
+
+#suppression{
+   width:400px;
+    height:50px;
+    font-size:1.rem; 
+}    
