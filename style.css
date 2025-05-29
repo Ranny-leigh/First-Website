@@ -46,4 +46,40 @@ nav{
    width:400px;
     height:50px;
     font-size:1.rem; 
-}    
+}  
+
+body{
+    background: lightskyblue;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh
+}
+
+.sidebar1{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+}
+
+.container{
+    display:flex;
+    height:100vh;
+}
+
+.sidebar1{
+    width:250px;
+    background-color: aqua;
+    color:black;
+    padding:20px;
+}
+
+.container1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
