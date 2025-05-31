@@ -1,1 +1,3 @@
-document.getElementById("web").innerText="Welcome To My Website!";
+document.getElementById("button").addEventListener("click",()=>{
+    document.body.style.backgroundColor="white";
+})

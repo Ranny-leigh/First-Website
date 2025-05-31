@@ -10,5 +10,17 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+body{
+    margin-left:200px;
+    margin-right:200px;
+}
 
+#form{
+    margin-left:300px;
+    margin-right:300px;
+}
 
+#title{
+    margin-left:300px;
+    margin-right:300px;
+}
