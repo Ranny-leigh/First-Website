@@ -24,3 +24,13 @@ body{
     margin-left:300px;
     margin-right:300px;
 }
+
+#page{
+    margin-left:300px;
+    margin-right:300px;
+}
+
+#text{
+    font-family: italics;
+    font-size:30px;
+}
