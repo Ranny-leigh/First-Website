@@ -34,3 +34,22 @@ body{
     font-family: italics;
     font-size:30px;
 }
+
+.navbar{
+    overflow:hidden;
+    background-color:cadetblue;
+}
+
+.navbar a{
+    float:none;
+    display:block;
+    color:aliceblue;
+    text-align:center;
+    padding:2px 15px;
+    text-decoration:none;
+}
+
+.navbar a:hover{
+    background-color:darkcyan;
+    color:dodgerblue;
+}
