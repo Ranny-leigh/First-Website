@@ -38,6 +38,7 @@ body{
 .navbar{
     overflow:hidden;
     background-color:cadetblue;
+    list-style-type:none;
 }
 
 .navbar a{
@@ -47,11 +48,13 @@ body{
     text-align:center;
     padding:2px 15px;
     text-decoration:none;
+    list-style-type:none;
 }
 
 .navbar a:hover{
     background-color:darkcyan;
     color:dodgerblue;
+    list-style-type:none;
 }
 
 #health{
