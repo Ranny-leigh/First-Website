@@ -53,3 +53,7 @@ body{
     background-color:darkcyan;
     color:dodgerblue;
 }
+
+#health{
+    font-size:20px;
+}
