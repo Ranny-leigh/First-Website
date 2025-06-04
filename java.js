@@ -1,1 +1,3 @@
-console.log("hello please let this work");
+document.getElementById("button").addEventListener("click",()=>{
+    document.body.style.backgroundColor="white";
+})
