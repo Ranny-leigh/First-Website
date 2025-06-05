@@ -41,14 +41,14 @@ body{
 }
 
 .navbar a{
-    float:left;
+    float:none;
     display:block;
     color:cornflowerblue;
     text-align:center;
-    padding:14px 20px;
+    padding:5px 20px;
     text-decoration:none;
 }
 
 .navbar a:hover{
-    background-color:dodgerblue;
+    background-color:aquamarine;
 }
